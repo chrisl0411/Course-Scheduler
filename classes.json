@@ -1,0 +1,122 @@
+[
+  {
+    "course": {
+      "courseName": "Data Structures and Algorithms",
+      "courseNumber": "CS 1332",
+      "coursePriority": 1,
+      "courseCreditHours": 3.00,
+      "classListings": [
+      {
+        "classID": 22295,
+        "classPriority": 1,
+        "classProfessor": "Mary Hudachek-Buswell",
+        "classDayTime": {
+          "Monday": {
+            "classStart": "8:25 am",
+            "classEnd": "9:15 am"
+          },
+          "Wednesday": {
+            "classStart": "8:25 am",
+            "classEnd": "9:15 am"
+          },
+          "Friday": {
+            "classStart": "8:25 am",
+            "classEnd": "9:15 am"
+          }
+        }
+      },
+      {
+        "classID": 25473,
+        "classPriority": 2,
+        "classProfessor": "Mary Hudachek-Buswell",
+        "classDayTime": {
+          "Monday": {
+            "classStart": "9:30 am",
+            "classEnd": "10:20 am"
+          },
+          "Wednesday": {
+            "classStart": "9:30 am",
+            "classEnd": "10:20 am"
+          },
+          "Friday": {
+            "classStart": "9:30 am",
+            "classEnd": "10:20 am"
+          }
+        }
+      },
+      {
+        "classID": 30859,
+        "classPriority": 3,
+        "classProfessor": "Mark Bomi Moss",
+        "classDayTime": {
+          "Monday": {
+            "classStart": "3:30 pm",
+            "classEnd": "4:20 pm"
+          },
+          "Wednesday": {
+            "classStart": "3:30 pm",
+            "classEnd": "4:20 pm"
+          },
+          "Friday": {
+            "classStart": "3:30 pm",
+            "classEnd": "4:20 pm"
+          }
+        }
+      }]
+    }
+  },
+  {
+    "course": {
+      "courseName": "Intro Discrete Math",
+      "courseNumber": "CS 2050",
+      "coursePriority": 2,
+      "courseCreditHours": 3.00,
+      "classListings": [
+      {
+        "classID": 24143,
+        "classPriority": 1,
+        "classProfessor": "Gerandy Brito",
+        "classDayTime": {
+          "Tuesday": {
+            "classStart": "2:00 pm",
+            "classEnd": "3:15 pm"
+          },
+          "Thursday": {
+            "classStart": "2:00 pm",
+            "classEnd": "3:15 pm"
+          }
+        }
+      },
+      {
+        "classID": 24144,
+        "classPriority": 2,
+        "classProfessor": "Dana Randall",
+        "classDayTime": {
+          "Tuesday": {
+            "classStart": "12:30 pm",
+            "classEnd": "1:45 pm"
+          },
+          "Thursday": {
+            "classStart": "12:30 pm",
+            "classEnd": "1:45 pm"
+          }
+        }
+      },
+      {
+        "classID": 35485,
+        "classPriority": 3,
+        "classProfessor": "Ronnie G Howard",
+        "classDayTime": {
+          "Tuesday": {
+            "classStart": "3:30 pm",
+            "classEnd": "4:45 pm"
+          },
+          "Thursday": {
+            "classStart": "3:30 pm",
+            "classEnd": "4:45 pm"
+          }
+        }
+      }]
+    }
+  }
+]

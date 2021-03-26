@@ -1,0 +1,18 @@
+[
+  {
+    "course": {
+      "courseName": "Data Structures and Algorithms",
+      "courseNumber": "CS 1332",
+      "coursePriority": 1,
+      "courseCreditHours": 3.00
+    }
+  },
+  {
+    "course": {
+      "courseName": "Intro Discrete Math",
+      "courseNumber": "CS 2050",
+      "coursePriority": 2,
+      "courseCreditHours": 3.00
+    }
+  }
+]

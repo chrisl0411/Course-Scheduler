@@ -1,0 +1,62 @@
+Automatic college course planner (based on schedules)
+
+1. Read in excel file with list of courses you need to take in order of priority
+- two areas of priority: a. courses themselves b. professor/time slot
+
+2. Read in day/time of each class and optimize a schedule for the coming semester.
+
+3. Add conditionals for minimum hours needed, if condition not met, output error msg.
+
+Extra functionality: webscrape ratemyprofessor or other rating website and get info.
+
+Design of classes:
+- public class com.chris.schedule.CourseObject {}
+    - holds course name, professor, credit hours, day and time (use map)
+- public class ReadFile {}
+    - reads classes.JSON file
+        > course
+            > courseName
+            > courseNumber
+            > coursePriority
+            > courseCreditHours
+            > classListings
+                > classPriority
+                > classProfessor
+                > classDayTime
+                    > {day of week}
+                        > start time
+                        > end time
+    - stores data into course objects
+    - outputs list of course objects
+    - set priorityID as 1+ascii(a,b,c,etc)
+    - then sort list of all classes and reassign priorityOrderNum by sequence (1,2...n)
+        - this way the last class 1st priority course and first class 2nd priority course are
+        sequential.
+
+- public class com.chris.schedule.Scheduler {}
+    - inputs list of course objects
+    - class scheduling (create list of start end times already in schedule)
+    - generates optimal class schedule
+        - assemble classes in max-heap with root as highest priority
+        - conditions: times do not overlap, credit hours reach min req.
+        - use equation to generate priority number
+
+    - outputs JSON file of optimal courses and 1 class to take
+    - output schedule.json with fields:
+        > course
+            > courseName
+            > courseNumber
+            > courseCreditHours
+            > classProfessor
+            > classDayTime
+                > {day of week}
+                    > start time
+                    > end time
+
+Example:
+    CS 1332 Data Structures and Algorithms
+    CS 2050 Intro to Discrete Math
+    CS 2340 Objects and Design
+    CS 2200 Systems and Networks
+    CS 3600 Intro - Artificial Intelligence
+
