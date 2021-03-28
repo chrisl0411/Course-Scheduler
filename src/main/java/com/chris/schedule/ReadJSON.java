@@ -14,9 +14,9 @@ import org.json.simple.parser.JSONParser;
 public class ReadJSON {
 
     @SuppressWarnings("unchecked")
-    public static ArrayList<CourseObject> outputCourseArray(String fileName) {
+    public static Map<Long, CourseObject> outputCourseArray(String fileName) {
         //ArrayList holds CourseObjects > ClassObjects > DayTimeObjects
-        ArrayList<CourseObject> courseArrayList = new ArrayList<>();
+        Map<Long, CourseObject> courseArrayMap = new HashMap<>();
         //JSON parser object to parse read file
         JSONParser jsonParser = new JSONParser();
 
@@ -60,13 +60,13 @@ public class ReadJSON {
                     alphaInit++;
                 }
                 CourseObject currCourse = new CourseObject(courseName, courseNumber, coursePriority, courseCreditHours, classArrayList);
-                courseArrayList.add(currCourse);
+                courseArrayMap.put(coursePriority, currCourse);
             }
 
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return courseArrayList;
+        return courseArrayMap;
     }
 
     private static ArrayList<DayTimeObject> classTimeArray(JSONObject classDayTimes){
@@ -127,9 +127,6 @@ public class ReadJSON {
         return jArray;
     }
 
-    public static void main(String[] strings) {
-        System.out.println(outputCourseArray("classes.json"));
-    }
 //    private static void parseClassObject(JSONObject course) {
 //        //Get employee object within list
 //        JSONObject courseObject = (JSONObject) course.get("course");

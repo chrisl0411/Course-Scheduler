@@ -26,6 +26,7 @@ public class CourseObject {
         return courseName;
     }
 
+
     public void setCourseName(String courseName) {
         this.courseName = courseName;
     }

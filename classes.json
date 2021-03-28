@@ -118,5 +118,188 @@
         }
       }]
     }
+  },
+  {
+    "course": {
+      "courseName": "TEST 3",
+      "courseNumber": "CS 2050",
+      "coursePriority": 3,
+      "courseCreditHours": 3.00,
+      "classListings": [
+        {
+          "classID": 33333,
+          "classPriority": 1,
+          "classProfessor": "Gerandy Brito",
+          "classDayTime": {
+            "Tuesday": {
+              "classStart": "9:30 am",
+              "classEnd": "10:20 am"
+            },
+            "Thursday": {
+              "classStart": "9:30 am",
+              "classEnd": "10:20 am"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "course": {
+      "courseName": "TEST 4",
+      "courseNumber": "CS 2050",
+      "coursePriority": 4,
+      "courseCreditHours": 3.00,
+      "classListings": [
+        {
+          "classID": 44444,
+          "classPriority": 1,
+          "classProfessor": "Gerandy Brito",
+          "classDayTime": {
+            "Tuesday": {
+              "classStart": "10:30 am",
+              "classEnd": "11:20 am"
+            },
+            "Thursday": {
+              "classStart": "10:30 am",
+              "classEnd": "11:20 am"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "course": {
+      "courseName": "TEST 5",
+      "courseNumber": "CS 2050",
+      "coursePriority": 5,
+      "courseCreditHours": 3.00,
+      "classListings": [
+        {
+          "classID": 55555,
+          "classPriority": 1,
+          "classProfessor": "Gerandy Brito",
+          "classDayTime": {
+            "Tuesday": {
+              "classStart": "12:30 pm",
+              "classEnd": "1:45 pm"
+            },
+            "Thursday": {
+              "classStart": "12:30 pm",
+              "classEnd": "1:45 pm"
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "course": {
+      "courseName": "TEST 6",
+      "courseNumber": "CS 2050",
+      "coursePriority": 6,
+      "courseCreditHours": 3.00,
+      "classListings": [
+        {
+          "classID": 24143,
+          "classPriority": 1,
+          "classProfessor": "Gerandy Brito",
+          "classDayTime": {
+            "Tuesday": {
+              "classStart": "2:00 pm",
+              "classEnd": "3:15 pm"
+            },
+            "Thursday": {
+              "classStart": "2:00 pm",
+              "classEnd": "3:15 pm"
+            }
+          }
+        },
+        {
+          "classID": 24144,
+          "classPriority": 2,
+          "classProfessor": "Dana Randall",
+          "classDayTime": {
+            "Tuesday": {
+              "classStart": "12:30 pm",
+              "classEnd": "1:45 pm"
+            },
+            "Thursday": {
+              "classStart": "12:30 pm",
+              "classEnd": "1:45 pm"
+            }
+          }
+        },
+        {
+          "classID": 35485,
+          "classPriority": 3,
+          "classProfessor": "Ronnie G Howard",
+          "classDayTime": {
+            "Tuesday": {
+              "classStart": "3:30 pm",
+              "classEnd": "4:45 pm"
+            },
+            "Thursday": {
+              "classStart": "3:30 pm",
+              "classEnd": "4:45 pm"
+            }
+          }
+        }]
+    }
+  },
+  {
+    "course": {
+      "courseName": "TEST 7",
+      "courseNumber": "CS 2050",
+      "coursePriority": 7,
+      "courseCreditHours": 3.00,
+      "classListings": [
+        {
+          "classID": 24143,
+          "classPriority": 1,
+          "classProfessor": "Gerandy Brito",
+          "classDayTime": {
+            "Tuesday": {
+              "classStart": "2:00 pm",
+              "classEnd": "3:15 pm"
+            },
+            "Thursday": {
+              "classStart": "2:00 pm",
+              "classEnd": "3:15 pm"
+            }
+          }
+        },
+        {
+          "classID": 24144,
+          "classPriority": 2,
+          "classProfessor": "Dana Randall",
+          "classDayTime": {
+            "Tuesday": {
+              "classStart": "12:30 pm",
+              "classEnd": "1:45 pm"
+            },
+            "Thursday": {
+              "classStart": "12:30 pm",
+              "classEnd": "1:45 pm"
+            }
+          }
+        },
+        {
+          "classID": 35485,
+          "classPriority": 3,
+          "classProfessor": "Ronnie G Howard",
+          "classDayTime": {
+            "Tuesday": {
+              "classStart": "3:30 pm",
+              "classEnd": "4:45 pm"
+            },
+            "Thursday": {
+              "classStart": "3:30 pm",
+              "classEnd": "4:45 pm"
+            }
+          }
+        }]
+    }
   }
 ]

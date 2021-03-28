@@ -3,8 +3,10 @@ package com.chris.schedule;
 import org.json.simple.JSONObject;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class ClassObject {
+
     protected Long classPriority;
     protected Long priorityID;
     protected Long classID;
@@ -20,9 +22,7 @@ public class ClassObject {
 
     }
 
-    public Long getClassPriority() {
-        return classPriority;
-    }
+    public Long getClassPriority() { return classPriority; }
 
     public void setClassPriority(Long classPriority) {
         this.classPriority = classPriority;
